@@ -9,6 +9,7 @@ int main(int argc, char** argv){
 	glutInitWindowSize(600, 600);
 	glutCreateWindow("Bounce");
 	glutReshapeFunc(reshape);
+	glutKeyboardFunc(keyboard);
 
 	init();
 

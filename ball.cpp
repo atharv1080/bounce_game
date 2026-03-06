@@ -5,6 +5,14 @@ float ballY = 2.0f;
 float speedY = 0.0f;
 const float gravity = -0.01f;
 
+void setBallSpeedY(float v){
+    speedY = v;
+}
+
+float getBallSpeedY(){
+    return speedY;
+}
+
 void drawBall(){
 	glColor3f(1.0f, 0.0f, 0.0f);
 

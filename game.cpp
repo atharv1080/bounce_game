@@ -2,7 +2,13 @@
 #include"ball.h"
 #include"game.h"
 
-void display(){
+void keyboard(unsigned char key, int x, int y){
+    if(key == ' '){
+        setBallSpeedY(0.2f);
+    }
+}
+
+void display(){ 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	drawFloor();
 	drawBall();

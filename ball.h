@@ -3,5 +3,8 @@
 
 void drawBall();
 void updateBall();
+void setBallSpeedY(float v);
+float getBallSpeedY();
 
 #endif
+
